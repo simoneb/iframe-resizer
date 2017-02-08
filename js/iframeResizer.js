@@ -1013,4 +1013,4 @@
 		window.iFrameResize = window.iFrameResize || factory();
 	}
 
-})(window || {});
+})(typeof window !== 'undefined' && window || {});
